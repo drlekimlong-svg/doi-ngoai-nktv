@@ -188,7 +188,9 @@ def ban_ke_hoach(k):
     a("")
     a("## Lịch sử cập nhật")
     a("")
-    a(f"- {dmy(k['ngayLap'])}: Lập khung bản {k['phienBan']} theo các vấn đề đối ngoại người dùng nêu; mục 10 tách thành ba đầu việc. Mục tiêu, việc cụ thể, câu cần chốt, hạn gợi ý và bảng loại bài là đề xuất của agent; căn cứ fanpage lấy từ dữ liệu Page cắt 18/07/2026.")
+    a(f"- {dmy(k['ngayLap'])}: Lập khung bản 1.0 theo các vấn đề đối ngoại người dùng nêu; mục 10 tách thành ba đầu việc. Mục tiêu, việc cụ thể, câu cần chốt, hạn gợi ý và bảng loại bài là đề xuất của agent; căn cứ fanpage lấy từ dữ liệu Page cắt 18/07/2026.")
+    for dong_ls in k.get("lichSu", []):
+        a(f"- {dong_ls}")
     a("")
     return "\n".join(L)
 

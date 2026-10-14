@@ -245,10 +245,15 @@ function taoHop(o) {
 function taoBang(id) { const b = bangCfg(id); return { dong: ((b && b.dong) || []).map(r => Object.assign({ id: uid('R') }, r)) }; }
 function fresh() {
   const bang = {}; BANG.forEach(b => { bang[b.id] = taoBang(b.id); });
-  return { v: 1, app: SEED.app.khoa, bang, khung: SEED.phienBan, taoLuc: new Date().toISOString(), capNhat: '', nhanSu: [], dauViec: SEED.dauViec.map(taoDV), cuocHop: [taoHop(SEED.hopMacDinh)] };
+  return { v: 1, app: SEED.app.khoa, bang, daXoa: [], khung: SEED.phienBan, taoLuc: new Date().toISOString(), capNhat: '', nhanSu: [], dauViec: SEED.dauViec.map(taoDV), cuocHop: [taoHop(SEED.hopMacDinh)] };
 }
 function chuan(s) {
-  s.nhanSu = s.nhanSu || []; s.cuocHop = s.cuocHop || []; s.bang = s.bang || {};
+  s.nhanSu = s.nhanSu || []; s.cuocHop = s.cuocHop || []; s.bang = s.bang || {}; s.daXoa = s.daXoa || [];
+  SEED.dauViec.forEach(d => {
+    if (s.dauViec.some(x => x.id === d.id) || s.daXoa.indexOf(d.id) >= 0) return;
+    const t = taoDV(d); if (s.dauViec.some(x => x.so === t.so)) t.so = Math.max.apply(null, s.dauViec.map(x => x.so)) + 1;
+    s.dauViec.push(t); THEM_MOI.push(t.so + '. ' + t.ten);
+  });
   BANG.forEach(b => { if (!s.bang[b.id]) s.bang[b.id] = taoBang(b.id); s.bang[b.id].dong = s.bang[b.id].dong || []; });
   s.dauViec.forEach(d => {
     d.viec = d.viec || []; d.canChot = d.canChot || []; d.sanPham = d.sanPham || []; d.theoNha = d.theoNha || []; d.nha = d.nha || {};
@@ -260,6 +265,7 @@ function chuan(s) {
   if (!s.cuocHop.length) s.cuocHop.push(taoHop(SEED.hopMacDinh));
   return s;
 }
+const THEM_MOI = [];
 function load() {
   try {
     const raw = localStorage.getItem(KEY);
@@ -804,7 +810,7 @@ view.addEventListener('click', e => {
       const so = S.dauViec.reduce((m, d) => Math.max(m, d.so), 0) + 1;
       const d = taoDV({ id: uid('DV'), so, ten: ten.trim(), nhom: 'Bổ sung' }); S.dauViec.push(d); ui.dv = d.id; ui.suaMo = true; save(); den('dauviec'); break;
     }
-    case 'dvXoa': if (!c.d) break; if (!confirm('Xóa đầu việc ' + c.d.so + ' “' + c.d.ten + '” cùng ' + c.d.viec.length + ' việc cụ thể? Không hoàn tác được; nên sao lưu trước.')) break; S.dauViec = S.dauViec.filter(x => x !== c.d); ui.dv = ''; ui.buoc = 0; save(); render(); break;
+    case 'dvXoa': if (!c.d) break; if (!confirm('Xóa đầu việc ' + c.d.so + ' “' + c.d.ten + '” cùng ' + c.d.viec.length + ' việc cụ thể? Không hoàn tác được; nên sao lưu trước.')) break; (S.daXoa = S.daXoa || []).push(c.d.id); S.dauViec = S.dauViec.filter(x => x !== c.d); ui.dv = ''; ui.buoc = 0; save(); render(); break;
     case 'buoc': ui.buoc = +b.dataset.i; render(); cuonBuoc(); break;
     case 'truoc': if (ui.buoc > 0) { ui.buoc--; render(); cuonBuoc(); } break;
     case 'sau': if (ui.buoc < S.dauViec.length) { ui.buoc++; render(); cuonBuoc(); } break;
@@ -841,6 +847,7 @@ $('#phienBan').textContent = 'Khung kế hoạch bản ' + SEED.phienBan + ', l�
 (function () { const t = location.hash.slice(1); if (VIEW[t]) ui.tab = t; })();
 if (S.capNhat) $('#luu').textContent = 'Dữ liệu trên máy này, cập nhật ' + new Date(S.capNhat).toLocaleString('vi-VN');
 render();
+if (THEM_MOI.length) { save(); toast('Khung kế hoạch có đầu việc mới, đã thêm: ' + THEM_MOI.join('; ')); }
 </script>
 </body>
 </html>

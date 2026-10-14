@@ -1,5 +1,5 @@
 {
-  "phienBan": "1.0",
+  "phienBan": "1.1",
   "ngayLap": "2026-10-14",
   "namHoc": "2026–2027",
   "donVi": "CLB Ngoại khoa Trưng Vương",
@@ -465,6 +465,135 @@
         {
           "k": "ghiChu",
           "nhan": "Ghi chú",
+          "kieu": "textarea",
+          "rong": true
+        }
+      ],
+      "dong": []
+    },
+    {
+      "id": "gopYAo",
+      "ten": "Góp ý áo CLB năm trước",
+      "tab": "ao",
+      "tenTab": "Áo CLB",
+      "moTa": "Mỗi nhà và Ban chủ nhiệm tổng hợp ý kiến của thành viên về áo CLB năm trước. Ghi số người đã góp ý để biết ý kiến đại diện cho bao nhiêu người.",
+      "cot": [
+        {
+          "k": "nguon",
+          "nhan": "Nhà, nhóm góp ý",
+          "kieu": "text",
+          "doi": true
+        },
+        {
+          "k": "soNguoi",
+          "nhan": "Số người góp ý",
+          "kieu": "number"
+        },
+        {
+          "k": "chatLuong",
+          "nhan": "Chất lượng sau một năm",
+          "kieu": "textarea",
+          "goiY": "phai màu, co rút, bai cổ, bong hình in, độ thoáng"
+        },
+        {
+          "k": "mauSac",
+          "nhan": "Màu sắc",
+          "kieu": "textarea"
+        },
+        {
+          "k": "chiPhi",
+          "nhan": "Chi phí",
+          "kieu": "textarea"
+        },
+        {
+          "k": "deXuat",
+          "nhan": "Đề xuất cho áo mới",
+          "kieu": "textarea",
+          "rong": true
+        }
+      ],
+      "dong": [
+        {
+          "nguon": "Nhà Suzaku"
+        },
+        {
+          "nguon": "Nhà Kirin"
+        },
+        {
+          "nguon": "Nhà Seiryu"
+        },
+        {
+          "nguon": "Nhà YinYang Kois"
+        },
+        {
+          "nguon": "Nhà Genbu"
+        },
+        {
+          "nguon": "Nhà Byakko"
+        },
+        {
+          "nguon": "Ban chủ nhiệm"
+        }
+      ]
+    },
+    {
+      "id": "aoMoi",
+      "ten": "Phương án áo CLB mới",
+      "tab": "ao",
+      "tenTab": "Áo CLB",
+      "moTa": "Mỗi dòng một ý tưởng hoặc phương án áo mới. Để so sánh tại cuộc họp, nên có màu, chất liệu, kiểu áo, cách in và đơn giá theo báo giá.",
+      "cot": [
+        {
+          "k": "ten",
+          "nhan": "Phương án",
+          "kieu": "text",
+          "doi": true
+        },
+        {
+          "k": "nguoiDeXuat",
+          "nhan": "Người, nhà đề xuất",
+          "kieu": "nguoi"
+        },
+        {
+          "k": "trangThai",
+          "nhan": "Trạng thái",
+          "kieu": "select",
+          "chon": [
+            "Ý tưởng",
+            "Có mẫu thiết kế",
+            "Có báo giá",
+            "Được chọn",
+            "Không chọn"
+          ]
+        },
+        {
+          "k": "mau",
+          "nhan": "Màu",
+          "kieu": "text"
+        },
+        {
+          "k": "chatLieu",
+          "nhan": "Chất liệu",
+          "kieu": "text"
+        },
+        {
+          "k": "kieu",
+          "nhan": "Kiểu áo, cách in hoặc thêu",
+          "kieu": "text"
+        },
+        {
+          "k": "donGia",
+          "nhan": "Đơn giá dự kiến (đồng)",
+          "kieu": "number"
+        },
+        {
+          "k": "nhaCungCap",
+          "nhan": "Nhà cung cấp",
+          "kieu": "text"
+        },
+        {
+          "k": "moTa",
+          "nhan": "Mô tả, đường dẫn mẫu thiết kế",
           "kieu": "textarea",
           "rong": true
         }
@@ -1241,6 +1370,96 @@
           "goiY": "2027-01-10"
         }
       ]
+    },
+    {
+      "id": "DN13",
+      "so": 13,
+      "ten": "Góp ý áo CLB năm trước; đề xuất ý tưởng áo CLB mới",
+      "nhom": "Nhận diện",
+      "mucTieu": "Đánh giá áo CLB năm trước theo ba mặt: chất lượng sau một năm sử dụng, màu sắc, chi phí. Từ đó chọn phương án áo CLB mới hợp với nhận diện, ngân sách và nhu cầu mặc (sinh hoạt, chương trình, ra ngoài CLB).",
+      "dieuKien": "Không có. Thiết kế áo mới nên khớp với bộ nhận diện CLB và nhận diện các nhà (đầu việc 12; kế hoạch nội bộ, đầu việc 1).",
+      "phuThuoc": [],
+      "lienQuan": [
+        "DN12",
+        "DN09"
+      ],
+      "bang": [
+        "gopYAo",
+        "aoMoi"
+      ],
+      "boiCanh": "Hồ sơ đang lưu chưa có thông tin về áo năm trước: mẫu, chất liệu, nhà cung cấp, đơn giá, số lượng đã đặt. Cần người giữ các thông tin này cung cấp trước khi so sánh. Bộ nhận diện CLB hiện là tài liệu đang lưu, chưa có biên bản duyệt chính thức; nhận diện từng nhà đang làm.",
+      "sanPham": [
+        "Thông tin áo năm trước: mẫu, chất liệu, nhà cung cấp, đơn giá, số lượng",
+        "Bảng góp ý theo từng nhà về chất lượng sau một năm, màu sắc, chi phí",
+        "Các phương án áo mới có mẫu thiết kế và báo giá",
+        "Phương án được BCN chọn: thiết kế, màu, chất liệu, đơn giá, mức hỗ trợ",
+        "Áo mẫu đã kiểm tra; đơn đặt, thu tiền, phát áo",
+        "Hồ sơ áo lưu cho năm sau: mẫu, nhà cung cấp, đơn giá, nhận xét"
+      ],
+      "canChot": [
+        "Thu góp ý bằng cách nào: phiếu cho toàn thành viên, hay mỗi nhà tự tổng hợp?",
+        "Áo mới dùng vào việc gì: sinh hoạt, chương trình ngoài CLB, ban tổ chức? Một mẫu chung hay có chi tiết riêng từng nhà?",
+        "Ngân sách: đơn giá tối đa mỗi áo; CLB hỗ trợ bao nhiêu, thành viên tự trả bao nhiêu?",
+        "Màu và yếu tố nhận diện: theo bộ nhận diện CLB; có in mascot, tên nhà không?",
+        "Junior Gen12 (sinh hoạt từ 22/11/2026) có đặt cùng đợt không?",
+        "Cần có áo trước mốc nào? Ai duyệt mẫu cuối?"
+      ],
+      "theoNha": [
+        "Nộp góp ý áo cũ",
+        "Nộp ý tưởng áo mới",
+        "Chốt số lượng, cỡ áo"
+      ],
+      "viec": [
+        {
+          "id": "DN13-01",
+          "ten": "Thu thông tin áo năm trước: mẫu, chất liệu, nhà cung cấp, đơn giá, số lượng đã đặt",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN13-02",
+          "ten": "Soạn phiếu góp ý: chất lượng sau một năm (phai màu, co rút, bai cổ, bong hình in, độ thoáng), màu sắc, chi phí",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN13-03",
+          "ten": "Thu góp ý của thành viên theo từng nhà; tổng hợp vào bảng góp ý",
+          "goiY": "2026-11-08"
+        },
+        {
+          "id": "DN13-04",
+          "ten": "Các nhà và thành viên gửi ý tưởng áo mới vào bảng phương án",
+          "goiY": "2026-11-15"
+        },
+        {
+          "id": "DN13-05",
+          "ten": "Lấy mẫu vải và báo giá từ ít nhất hai nhà cung cấp",
+          "goiY": "2026-11-22"
+        },
+        {
+          "id": "DN13-06",
+          "ten": "BCN chọn phương án: thiết kế, màu, chất liệu, đơn giá, mức hỗ trợ",
+          "goiY": "2026-11-29"
+        },
+        {
+          "id": "DN13-07",
+          "ten": "Đặt may thử một áo; kiểm tra chất lượng, màu so với mẫu",
+          "goiY": "2026-12-13"
+        },
+        {
+          "id": "DN13-08",
+          "ten": "Chốt danh sách cỡ áo, thu tiền, đặt may",
+          "goiY": "",
+          "luuY": "Tính ngược từ mốc cần có áo"
+        },
+        {
+          "id": "DN13-09",
+          "ten": "Phát áo; lưu hồ sơ áo (mẫu, nhà cung cấp, đơn giá, nhận xét) cho năm sau",
+          "goiY": ""
+        }
+      ]
     }
+  ],
+  "lichSu": [
+    "14/10/2026: Bản 1.1. Theo yêu cầu bổ sung của người dùng, thêm đầu việc 13 (góp ý áo CLB năm trước về chất lượng sau một năm, màu sắc, chi phí; đề xuất ý tưởng áo CLB mới) cùng hai bảng ở mục Áo CLB."
   ]
 }
