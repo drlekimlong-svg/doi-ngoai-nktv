@@ -1,0 +1,1246 @@
+{
+  "phienBan": "1.0",
+  "ngayLap": "2026-10-14",
+  "namHoc": "2026–2027",
+  "donVi": "CLB Ngoại khoa Trưng Vương",
+  "app": {
+    "tieuDe": "Kế hoạch Đối ngoại 2026–2027",
+    "phuDe": "CLB Ngoại khoa Trưng Vương · Đón Nhận – Trưởng thành – Trao lại",
+    "khoa": "nktv-doi-ngoai-2026-2027",
+    "tienTo": "DOI_NGOAI"
+  },
+  "thang": [
+    "2026-09",
+    "2027-08"
+  ],
+  "trangThaiKhung": "Dự thảo do agent soạn theo yêu cầu của ThS.BS.CK1 Lê Kim Long ngày 14/10/2026. Mục tiêu, việc cụ thể, hạn gợi ý và các dòng trong bảng loại bài là đề xuất. Căn cứ lấy từ bộ kế hoạch 2025–2026 của CLB (Khâu cơ bản, X-quang bụng, CT-scan bụng, Tuyển quân Gen12) và dữ liệu Page cắt ngày 18/07/2026 (tháng đăng bài, không phải ngày tổ chức). Người phụ trách, hạn, chỉ tiêu và quyết định chỉ có hiệu lực khi được chốt tại cuộc họp.",
+  "nha": [
+    {
+      "id": "suzaku",
+      "ten": "Suzaku",
+      "viet": "Chu Tước"
+    },
+    {
+      "id": "kirin",
+      "ten": "Kirin",
+      "viet": "Kỳ Lân"
+    },
+    {
+      "id": "seiryu",
+      "ten": "Seiryu",
+      "viet": "Thanh Long"
+    },
+    {
+      "id": "kois",
+      "ten": "YinYang Kois",
+      "viet": "Cá Chép"
+    },
+    {
+      "id": "genbu",
+      "ten": "Genbu",
+      "viet": "Huyền Vũ"
+    },
+    {
+      "id": "byakko",
+      "ten": "Byakko",
+      "viet": "Bạch Hổ"
+    }
+  ],
+  "hopMacDinh": {
+    "ten": "Họp triển khai kế hoạch Đối ngoại năm học 2026–2027",
+    "chuTri": "ThS.BS.CK1 Lê Kim Long",
+    "thanhPhan": "Ban chủ nhiệm CLB"
+  },
+  "bang": [
+    {
+      "id": "chuongTrinh",
+      "ten": "Chương trình ngoài CLB",
+      "tab": "chuongtrinh",
+      "tenTab": "Chương trình",
+      "moTa": "Mỗi dòng một chương trình CLB tổ chức cho sinh viên ngoài CLB hoặc một hoạt động CLB tham gia. Điền tháng để hiện lên timeline; điền ngày chính để hiện trong mục Lịch. Cột căn cứ ghi tháng đăng bài của các năm trước theo dữ liệu Page, không phải ngày tổ chức.",
+      "timeline": {
+        "tu": "tuThang",
+        "den": "denThang",
+        "ngay": "ngayChinh",
+        "nhan": "ten"
+      },
+      "lich": {
+        "ngay": "ngayChinh",
+        "ten": [
+          "ten"
+        ],
+        "nguoi": "truongBan",
+        "nhan": "Chương trình"
+      },
+      "cot": [
+        {
+          "k": "ten",
+          "nhan": "Chương trình",
+          "kieu": "text",
+          "doi": true
+        },
+        {
+          "k": "loai",
+          "nhan": "Loại",
+          "kieu": "select",
+          "chon": [
+            "CLB tổ chức",
+            "CLB tham gia",
+            "Tuyển thành viên",
+            "Hợp tác"
+          ]
+        },
+        {
+          "k": "tuThang",
+          "nhan": "Từ tháng",
+          "kieu": "month"
+        },
+        {
+          "k": "denThang",
+          "nhan": "Đến tháng",
+          "kieu": "month"
+        },
+        {
+          "k": "ngayChinh",
+          "nhan": "Ngày chính",
+          "kieu": "date"
+        },
+        {
+          "k": "truongBan",
+          "nhan": "Trưởng ban tổ chức",
+          "kieu": "nguoi"
+        },
+        {
+          "k": "chiTieuTD",
+          "nhan": "Chỉ tiêu tham dự",
+          "kieu": "number"
+        },
+        {
+          "k": "chiTieuHT",
+          "nhan": "Chỉ tiêu hoàn thành",
+          "kieu": "number"
+        },
+        {
+          "k": "banKeHoach",
+          "nhan": "Bản kế hoạch chuẩn",
+          "kieu": "select",
+          "chon": [
+            "Chưa có",
+            "Có bản cũ",
+            "Đang hoàn thiện",
+            "Đã duyệt"
+          ]
+        },
+        {
+          "k": "canCu",
+          "nhan": "Căn cứ từ các năm trước",
+          "kieu": "textarea",
+          "rong": true,
+          "bb": false
+        },
+        {
+          "k": "ghiChu",
+          "nhan": "Ghi chú",
+          "kieu": "textarea",
+          "rong": true
+        }
+      ],
+      "dong": [
+        {
+          "ten": "Kỹ năng khâu cơ bản",
+          "loai": "CLB tổ chức",
+          "canCu": "Kế hoạch 2025–2026: dự kiến 01/12–24/01; mở bán vé 24/12/2025 (early bird) và 26/12/2025; các buổi từ 06/01 đến 24/01/2026; 190 vé + 10 vé mời (early bird 65.000đ, 50 vé; standard 80.000đ, 140 vé); mỗi buổi thực hành trung bình 60 học viên, tối thiểu 22 tập huấn viên. Page: bài đăng tập trung tháng 12–01 các năm 2023–2026.",
+          "banKeHoach": "Có bản cũ"
+        },
+        {
+          "ten": "CT-scan bụng dưới góc nhìn sinh viên y khoa",
+          "loai": "CLB tổ chức",
+          "canCu": "Kế hoạch 2025–2026: bán vé online 09–15/05/2026; học 19, 21, 26, 28/05/2026, lượng giá 02/06/2026 (bản kế hoạch tổ chức ghi 31/05/2026); 80 vé + 5 vé mời, 100.000đ/vé; kế hoạch ghi 85 học viên thực tế; đối tượng sinh viên khối ngành sức khỏe TP.HCM. Page: bài đăng tháng 03–04/2024, 05–06/2025, 05–06/2026.",
+          "banKeHoach": "Có bản cũ"
+        },
+        {
+          "ten": "X-quang bụng dưới góc nhìn lâm sàng",
+          "loai": "CLB tổ chức",
+          "canCu": "Kế hoạch 2025–2026: dự kiến 16/03–05/04/2026; 170 vé + 10 vé mời (early bird 65.000đ, 40 vé; standard 80.000đ, 130 vé); mỗi buổi khoảng 60 học viên. Page: bài đăng tháng 03 các năm 2025, 2026.",
+          "banKeHoach": "Có bản cũ"
+        },
+        {
+          "ten": "CHILL cùng Ngoại khoa",
+          "loai": "CLB tổ chức",
+          "canCu": "Mùa 2 đăng bài 04–10/2025; mùa 03 Singularity đăng 03–07/2026, recap 05/07/2026."
+        },
+        {
+          "ten": "Nhà Ngoại khoa trẻ",
+          "loai": "CLB tổ chức",
+          "canCu": "Mùa 3 đăng bài 05–07/2026: công bố 24 đội vào bán kết, tập huấn cho 72 thí sinh."
+        },
+        {
+          "ten": "Kỹ năng quản lý thời gian (chương trình mới)",
+          "loai": "CLB tổ chức",
+          "canCu": "Chương trình mới. Kế hoạch dự thảo 0.7 (05/10/2026, chưa duyệt): 2 buổi trực tiếp, dự kiến 80–90 người."
+        },
+        {
+          "ten": "Tuyển quân",
+          "loai": "Tuyển thành viên",
+          "canCu": "Kế hoạch Tuyển quân Gen12 (năm học này): 14/10–22/11/2026; mở form 17/10, đóng 26/10; workshop kỹ năng 01/11; phỏng vấn 14–15/11; buổi sinh hoạt đầu tiên của Junior 22/11/2026. Tháng trên timeline điền theo kế hoạch này. Page: bài đăng tháng 11–12/2023, 10–11/2024, 10/2025 (NOVA(s)).",
+          "tuThang": "2026-10",
+          "denThang": "2026-11"
+        },
+        {
+          "ten": "Ngày hội gian hàng",
+          "loai": "CLB tham gia",
+          "canCu": "Bài đăng tháng 11/2024 và 11/2025."
+        },
+        {
+          "ten": "Đường chạy truyền thống – hạng mục Kéo co",
+          "loai": "CLB tham gia",
+          "canCu": "Chưa có dữ liệu trong hồ sơ đang lưu."
+        }
+      ]
+    },
+    {
+      "id": "loaiBai",
+      "ten": "Danh mục loại bài đăng",
+      "tab": "fanpage",
+      "tenTab": "Fanpage",
+      "moTa": "Danh mục loại bài đăng trên fanpage. Các dòng có sẵn là đề xuất của agent để thảo luận; sửa, gộp, xóa hoặc thêm tại cuộc họp.",
+      "cot": [
+        {
+          "k": "ten",
+          "nhan": "Loại bài",
+          "kieu": "text",
+          "doi": true
+        },
+        {
+          "k": "tanSuat",
+          "nhan": "Tần suất",
+          "kieu": "text",
+          "goiY": "ví dụ: 2 bài/tháng"
+        },
+        {
+          "k": "ngayDang",
+          "nhan": "Ngày, khung giờ đăng",
+          "kieu": "text"
+        },
+        {
+          "k": "noiDung",
+          "nhan": "Phụ trách nội dung",
+          "kieu": "nguoi"
+        },
+        {
+          "k": "thietKe",
+          "nhan": "Nhóm thiết kế",
+          "kieu": "nguoi"
+        },
+        {
+          "k": "duyet",
+          "nhan": "Người duyệt",
+          "kieu": "nguoi"
+        },
+        {
+          "k": "mucDich",
+          "nhan": "Mục đích, phạm vi",
+          "kieu": "textarea",
+          "rong": true,
+          "bb": false
+        },
+        {
+          "k": "ghiChu",
+          "nhan": "Ghi chú",
+          "kieu": "textarea",
+          "rong": true
+        }
+      ],
+      "dong": [
+        {
+          "ten": "Kiến thức học thuật",
+          "mucDich": "Bài kiến thức ngoại khoa, ca lâm sàng, hình ảnh học cho sinh viên y khoa. Không dùng thông tin hay hình ảnh nhận diện được người bệnh."
+        },
+        {
+          "ten": "Thông báo chương trình",
+          "mucDich": "Mở đăng ký, nhắc lịch, hướng dẫn tham gia các chương trình trong timeline."
+        },
+        {
+          "ten": "Tổng kết chương trình (recap)",
+          "mucDich": "Ảnh, cảm nhận, số liệu sau chương trình. Số liệu dùng mức đã kiểm chứng: đăng ký, tham dự, hoàn thành ghi riêng."
+        },
+        {
+          "ten": "Con người CLB",
+          "mucDich": "Sáu nhà, gương mặt thành viên, cựu thành viên trở lại hướng dẫn. Xin phép người xuất hiện trước khi đăng."
+        },
+        {
+          "ten": "Câu chuyện và giá trị CLB",
+          "mucDich": "Câu chuyện Đón Nhận – Trưởng thành – Trao lại; giá trị cốt lõi sau khi được chốt chính thức."
+        },
+        {
+          "ten": "Tuyển quân",
+          "mucDich": "Chuỗi bài theo mùa tuyển quân."
+        },
+        {
+          "ten": "Cột mốc, thành tích",
+          "mucDich": "Sinh nhật CLB (06/08), giải thưởng, kết quả cuộc thi. Nêu đúng nguồn và đúng mức thành tích."
+        },
+        {
+          "ten": "Hợp tác, hỗ trợ truyền thông",
+          "mucDich": "Bài cho CLB bạn, đối tác, đơn vị đề nghị hỗ trợ truyền thông; áp dụng theo quy chế đối ngoại."
+        },
+        {
+          "ten": "Văn hóa nội bộ",
+          "mucDich": "Cozy Christmas, Camping, sinh hoạt tuần; chọn lọc, xin phép người trong ảnh."
+        }
+      ]
+    },
+    {
+      "id": "lichDang",
+      "ten": "Lịch đăng bài",
+      "tab": "fanpage",
+      "tenTab": "Fanpage",
+      "moTa": "Mỗi dòng một bài dự kiến đăng. Bài có ngày đăng sẽ hiện trong mục Lịch. Chín dòng có sẵn chép từ lịch truyền thông trong kế hoạch Tuyển quân Gen12 (chỉ các bài đăng trên fanpage).",
+      "lich": {
+        "ngay": "ngay",
+        "ten": [
+          "loai",
+          "noiDung"
+        ],
+        "nguoi": "phuTrach",
+        "tt": "trangThai",
+        "nhan": "Fanpage"
+      },
+      "cot": [
+        {
+          "k": "ngay",
+          "nhan": "Ngày đăng",
+          "kieu": "date"
+        },
+        {
+          "k": "gio",
+          "nhan": "Giờ đăng",
+          "kieu": "time"
+        },
+        {
+          "k": "loai",
+          "nhan": "Loại bài",
+          "kieu": "tuBang",
+          "nguon": "loaiBai"
+        },
+        {
+          "k": "phuTrach",
+          "nhan": "Phụ trách nội dung",
+          "kieu": "nguoi"
+        },
+        {
+          "k": "thietKe",
+          "nhan": "Thiết kế",
+          "kieu": "nguoi"
+        },
+        {
+          "k": "trangThai",
+          "nhan": "Trạng thái",
+          "kieu": "select",
+          "chon": [
+            "Ý tưởng",
+            "Đang soạn",
+            "Chờ duyệt",
+            "Đã lên lịch",
+            "Đã đăng"
+          ]
+        },
+        {
+          "k": "noiDung",
+          "nhan": "Nội dung bài",
+          "kieu": "textarea",
+          "rong": true
+        },
+        {
+          "k": "link",
+          "nhan": "Đường dẫn bài sau khi đăng",
+          "kieu": "text",
+          "rong": true,
+          "bb": false
+        }
+      ],
+      "dong": [
+        {
+          "ngay": "2026-10-14",
+          "gio": "20:00",
+          "loai": "Tuyển quân",
+          "noiDung": "Trailer thông báo tổ chức Tuyển quân 2026 (video ngắn). Theo kế hoạch Tuyển quân Gen12."
+        },
+        {
+          "ngay": "2026-10-16",
+          "gio": "20:00",
+          "loai": "Tuyển quân",
+          "noiDung": "Bài viết công bố chương trình Tuyển quân của CLB (poster). Theo kế hoạch Tuyển quân Gen12."
+        },
+        {
+          "ngay": "2026-10-17",
+          "gio": "20:00",
+          "loai": "Tuyển quân",
+          "noiDung": "Mở form đăng ký tham gia Tuyển quân (vòng 1). Theo kế hoạch Tuyển quân Gen12."
+        },
+        {
+          "ngay": "2026-10-21",
+          "gio": "20:00",
+          "loai": "Tuyển quân",
+          "noiDung": "Giới thiệu các nhóm sinh hoạt trong CLB. Theo kế hoạch Tuyển quân Gen12."
+        },
+        {
+          "ngay": "2026-10-25",
+          "gio": "20:00",
+          "loai": "Tuyển quân",
+          "noiDung": "Nhắc còn 1 ngày đóng form đăng ký. Theo kế hoạch Tuyển quân Gen12."
+        },
+        {
+          "ngay": "2026-10-30",
+          "gio": "20:00",
+          "loai": "Tuyển quân",
+          "noiDung": "Kết quả vòng 1 (kiểm tra mail), thời gian và địa điểm nhận thư tay. Theo kế hoạch Tuyển quân Gen12."
+        },
+        {
+          "ngay": "2026-11-02",
+          "gio": "20:00",
+          "loai": "Tuyển quân",
+          "noiDung": "Recap Workshop Kỹ năng. Theo kế hoạch Tuyển quân Gen12."
+        },
+        {
+          "ngay": "2026-11-08",
+          "gio": "20:00",
+          "loai": "Tuyển quân",
+          "noiDung": "Kết quả vòng 2 (story). Theo kế hoạch Tuyển quân Gen12."
+        },
+        {
+          "ngay": "2026-11-21",
+          "gio": "20:00",
+          "loai": "Tuyển quân",
+          "noiDung": "Recap vòng 3 và kết quả vòng 3. Theo kế hoạch Tuyển quân Gen12."
+        }
+      ]
+    },
+    {
+      "id": "doiTac",
+      "ten": "CLB học thuật và đối tác",
+      "tab": "doitac",
+      "tenTab": "Đối tác",
+      "moTa": "Danh sách CLB học thuật và đơn vị muốn hợp tác. Để trống, điền tại cuộc họp.",
+      "cot": [
+        {
+          "k": "ten",
+          "nhan": "CLB, đơn vị",
+          "kieu": "text",
+          "doi": true
+        },
+        {
+          "k": "truong",
+          "nhan": "Trường",
+          "kieu": "text"
+        },
+        {
+          "k": "linhVuc",
+          "nhan": "Lĩnh vực",
+          "kieu": "text"
+        },
+        {
+          "k": "dauMoi",
+          "nhan": "Đầu mối phía CLB",
+          "kieu": "nguoi"
+        },
+        {
+          "k": "trangThai",
+          "nhan": "Trạng thái",
+          "kieu": "select",
+          "chon": [
+            "Ý tưởng",
+            "Đã liên hệ",
+            "Đang trao đổi",
+            "Đã hợp tác",
+            "Tạm dừng"
+          ]
+        },
+        {
+          "k": "hinhThuc",
+          "nhan": "Hình thức hợp tác",
+          "kieu": "text",
+          "doi": true
+        },
+        {
+          "k": "ghiChu",
+          "nhan": "Ghi chú",
+          "kieu": "textarea",
+          "rong": true
+        }
+      ],
+      "dong": []
+    }
+  ],
+  "dauViec": [
+    {
+      "id": "DN01",
+      "so": 1,
+      "ten": "Xác lập timeline các chương trình ngoài CLB năm học 2026–2027",
+      "nhom": "Chương trình",
+      "mucTieu": "Có một lịch tổng các chương trình CLB tổ chức cho sinh viên ngoài CLB và các hoạt động CLB tham gia trong năm học, đủ để các ban lập kế hoạch ngược và tránh trùng nhau, trùng mùa thi.",
+      "dieuKien": "Không có.",
+      "phuThuoc": [],
+      "bang": [
+        "chuongTrinh"
+      ],
+      "boiCanh": "Bảng chương trình đã điền tên các chương trình có trên Page và các mốc của năm học 2025–2026 lấy từ bộ kế hoạch nội bộ: Khâu cơ bản 01/12–24/01; X-quang bụng 16/03–05/04; CT-scan bụng tháng 05. Tuyển quân Gen12 đang chạy 14/10–22/11/2026 và đã nằm trên timeline. Biên bản họp ban tổ chức Khâu cơ bản ghi việc gửi Hội Sinh viên thông tin cơ bản, dự trù kinh phí và lịch chương trình. Với các chương trình khác, cột căn cứ chỉ có tháng đăng bài trên Page, không phải ngày tổ chức.",
+      "sanPham": [
+        "Bảng timeline: mỗi chương trình có tháng bắt đầu, tháng kết thúc, ngày chính",
+        "Danh sách mốc cần tránh: lịch thi các khối, Tết Nguyên đán, các đợt thực tập",
+        "Timeline được BCN duyệt và công bố nội bộ"
+      ],
+      "canChot": [
+        "Danh sách chương trình năm nay: giữ, bỏ, thêm chương trình nào?",
+        "Mỗi chương trình tổ chức tháng nào, ngày chính là ngày nào?",
+        "Những mốc cần tránh: lịch thi, Tết, đợt thực tập?",
+        "Ai giữ và cập nhật timeline chung?",
+        "Chương trình nào cần xin phép Hội Sinh viên hoặc nhà trường, hạn nộp hồ sơ?"
+      ],
+      "theoNha": [],
+      "viec": [
+        {
+          "id": "DN01-01",
+          "ten": "Rà bảng chương trình: giữ, bỏ, thêm chương trình CLB tổ chức và hoạt động CLB tham gia",
+          "goiY": "2026-10-18"
+        },
+        {
+          "id": "DN01-02",
+          "ten": "Thu lịch thi, lịch thực tập của các khối để đánh dấu mốc cần tránh",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN01-03",
+          "ten": "Trưởng từng chương trình đề xuất tháng tổ chức và ngày chính",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN01-04",
+          "ten": "Ghép timeline chung; xử lý chỗ trùng",
+          "goiY": "2026-11-01"
+        },
+        {
+          "id": "DN01-05",
+          "ten": "BCN duyệt timeline; công bố nội bộ",
+          "goiY": "2026-11-08"
+        },
+        {
+          "id": "DN01-06",
+          "ten": "Gửi lịch cho Hội Sinh viên và đơn vị phối hợp theo quy định",
+          "goiY": "2026-11-15"
+        },
+        {
+          "id": "DN01-07",
+          "ten": "Rà timeline tại họp BCN hằng tháng",
+          "goiY": "",
+          "luuY": "Việc lặp lại hằng tháng"
+        }
+      ]
+    },
+    {
+      "id": "DN02",
+      "so": 2,
+      "ten": "Xác lập chỉ tiêu số lượng học viên cho từng chương trình",
+      "nhom": "Chương trình",
+      "mucTieu": "Mỗi chương trình có chỉ tiêu học viên rõ ràng, tách mức tham dự và mức hoàn thành, đặt trên năng lực tổ chức thật: phòng, dụng cụ, số tập huấn viên.",
+      "dieuKien": "Nên chốt sau khi có danh sách chương trình (đầu việc 1).",
+      "phuThuoc": [],
+      "lienQuan": [
+        "DN01",
+        "DN06"
+      ],
+      "bang": [
+        "chuongTrinh"
+      ],
+      "boiCanh": "Kế hoạch 2025–2026: Khâu cơ bản 190 vé + 10 vé mời, mỗi buổi thực hành khoảng 60 học viên và tối thiểu 22 tập huấn viên; X-quang bụng 170 vé + 10 vé mời, mỗi buổi khoảng 60 học viên; CT-scan bụng 80 vé + 5 vé mời, kế hoạch ghi 85 học viên thực tế. Page công bố Nhà Ngoại khoa trẻ mùa 3 có 24 đội vào bán kết và tập huấn cho 72 thí sinh. Workshop Quản lý thời gian dự kiến 80–90 người. Số vé là số dự kiến bán; chưa có bảng số tham dự và hoàn thành đã kiểm chứng của các mùa. Tiêu chí hoàn thành trong kế hoạch: CT-scan tham gia đủ 4/5 buổi; Khâu cơ bản đủ 4/4 buổi, lý thuyết từ 16/20, thực hành 5 mũi trong 8 phút.",
+      "sanPham": [
+        "Chỉ tiêu tham dự và hoàn thành của từng chương trình, ghi trong bảng chương trình",
+        "Căn cứ của từng chỉ tiêu: số mùa trước, sức chứa, số tập huấn viên",
+        "Mẫu báo cáo số liệu sau chương trình: đăng ký, tham dự, hoàn thành, cấp chứng nhận"
+      ],
+      "canChot": [
+        "Đếm theo mức nào: đăng ký, tham dự, hoàn thành, cấp chứng nhận?",
+        "Chỉ tiêu cụ thể của từng chương trình?",
+        "Giới hạn sức chứa: phòng, dụng cụ, tỷ lệ tập huấn viên trên học viên?",
+        "Ai thu số liệu thực tế sau mỗi chương trình và nộp vào Hồ sơ năng lực CLB?"
+      ],
+      "theoNha": [],
+      "viec": [
+        {
+          "id": "DN02-01",
+          "ten": "Thu số liệu các mùa trước của từng chương trình: đăng ký, tham dự, hoàn thành",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN02-02",
+          "ten": "Xác định sức chứa: phòng, dụng cụ, số tập huấn viên",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN02-03",
+          "ten": "Đề xuất chỉ tiêu từng chương trình kèm căn cứ",
+          "goiY": "2026-11-01"
+        },
+        {
+          "id": "DN02-04",
+          "ten": "BCN duyệt chỉ tiêu",
+          "goiY": "2026-11-08"
+        },
+        {
+          "id": "DN02-05",
+          "ten": "Thống nhất mẫu báo cáo số liệu sau chương trình",
+          "goiY": "2026-11-15"
+        },
+        {
+          "id": "DN02-06",
+          "ten": "Báo cáo số thực tế so với chỉ tiêu sau mỗi chương trình",
+          "goiY": "",
+          "luuY": "Việc lặp lại sau mỗi chương trình"
+        }
+      ]
+    },
+    {
+      "id": "DN03",
+      "so": 3,
+      "ten": "Lập danh sách phân loại các bài đăng trên fanpage",
+      "nhom": "Fanpage",
+      "mucTieu": "Có danh mục loại bài đăng thống nhất: mỗi loại có mục đích, tần suất, người phụ trách nội dung, nhóm thiết kế và người duyệt; dùng làm khung cho lịch đăng bài.",
+      "dieuKien": "Không có.",
+      "phuThuoc": [],
+      "bang": [
+        "loaiBai"
+      ],
+      "boiCanh": "Fanpage có 873 nội dung từ 22/03/2015 đến 08/07/2026 (dữ liệu cắt 18/07/2026). Trong 12 tháng trước ngày cắt có 115 nội dung; theo nhãn chủ đề của bộ phân tích cũ: Thông tin chung 42, Học thuật – đào tạo 28, Thành tựu – cột mốc 25, Tổng kết – recap 16, Sự kiện – cuộc thi 3, Tuyển thành viên 1. Đây là nhãn do bộ phân tích gán, chưa phải danh mục CLB đã duyệt.",
+      "sanPham": [
+        "Danh mục loại bài được chốt, mỗi loại có định nghĩa ngắn",
+        "Người phụ trách nội dung, nhóm thiết kế, người duyệt của từng loại",
+        "Quy tắc chung khi đăng: hashtag, chữ ký bài, xin phép dùng ảnh, không đăng thông tin người bệnh"
+      ],
+      "canChot": [
+        "Danh mục loại bài: giữ, gộp, thêm loại nào?",
+        "Mỗi loại: ai phụ trách nội dung, nhóm nào thiết kế, ai duyệt?",
+        "Loại nào cần mẫu thiết kế cố định?",
+        "Quy tắc chung: hashtag, chữ ký bài, cách gọi tên nhà, xin phép người trong ảnh?"
+      ],
+      "theoNha": [],
+      "viec": [
+        {
+          "id": "DN03-01",
+          "ten": "Rà các bài đã đăng 12 tháng qua; đối chiếu với bảng loại bài đề xuất",
+          "goiY": "2026-10-18"
+        },
+        {
+          "id": "DN03-02",
+          "ten": "Chốt danh mục loại bài và định nghĩa từng loại",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN03-03",
+          "ten": "Gán người phụ trách nội dung, nhóm thiết kế, người duyệt cho từng loại",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN03-04",
+          "ten": "Soạn quy tắc chung khi đăng bài",
+          "goiY": "2026-11-01"
+        },
+        {
+          "id": "DN03-05",
+          "ten": "Làm mẫu thiết kế cho các loại bài thường xuyên (đầu việc 9)",
+          "goiY": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "DN04",
+      "so": 4,
+      "ten": "Tạo lịch đăng bài trên fanpage",
+      "nhom": "Fanpage",
+      "mucTieu": "Có lịch đăng bài theo tuần và tháng, ghép từ timeline chương trình và danh mục loại bài, để fanpage đều đặn quanh năm thay vì dồn theo mùa chương trình.",
+      "dieuKien": "Cần danh mục loại bài (đầu việc 3) và timeline chương trình (đầu việc 1).",
+      "phuThuoc": [
+        "DN03",
+        "DN01"
+      ],
+      "bang": [
+        "lichDang"
+      ],
+      "boiCanh": "Bảng lịch đăng đã nạp 9 bài fanpage của kế hoạch Tuyển quân Gen12 (14/10–21/11/2026). Các kế hoạch chương trình 2025–2026 đều có lịch truyền thông riêng do ban truyền thông của chương trình làm. Dữ liệu Page: trong 12 tháng trước ngày 18/07/2026, số nội dung mỗi tháng dao động từ 1 (07/2025, 08/2025) đến 30 (05/2026); 02/2026 có 2. Fanpage đang dồn bài theo mùa chương trình và tuyển quân.",
+      "sanPham": [
+        "Nhịp đăng tối thiểu và khung giờ đăng",
+        "Quy trình soạn – thiết kế – duyệt – đăng, có thời hạn từng bước",
+        "Lịch đăng tháng 11 và 12/2026; khung lịch cả năm",
+        "Báo cáo hằng tháng: số bài đã đăng so với lịch"
+      ],
+      "canChot": [
+        "Nhịp tối thiểu bao nhiêu bài mỗi tuần? Khung giờ đăng?",
+        "Ai giữ lịch đăng; ai có quyền đăng bài trên fanpage?",
+        "Quy trình soạn – thiết kế – duyệt – đăng: mỗi bước xong trước ngày đăng bao lâu?",
+        "Mùa thi, Tết: giảm nhịp thế nào?"
+      ],
+      "theoNha": [],
+      "viec": [
+        {
+          "id": "DN04-01",
+          "ten": "Chốt nhịp đăng tối thiểu và khung giờ",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN04-02",
+          "ten": "Rà quyền quản trị fanpage: ai có quyền gì",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN04-03",
+          "ten": "Chốt quy trình soạn – thiết kế – duyệt – đăng và thời hạn từng bước",
+          "goiY": "2026-11-01"
+        },
+        {
+          "id": "DN04-04",
+          "ten": "Lập lịch đăng tháng 11 và 12/2026",
+          "goiY": "2026-11-01"
+        },
+        {
+          "id": "DN04-05",
+          "ten": "Lập khung lịch đăng cả năm theo timeline chương trình",
+          "goiY": "2026-11-15"
+        },
+        {
+          "id": "DN04-06",
+          "ten": "Họp nội dung định kỳ; cập nhật lịch đăng",
+          "goiY": "",
+          "luuY": "Việc lặp lại hằng tuần hoặc hằng tháng"
+        },
+        {
+          "id": "DN04-07",
+          "ten": "Báo cáo cuối tháng: số bài đã đăng so với lịch",
+          "goiY": "",
+          "luuY": "Việc lặp lại hằng tháng"
+        }
+      ]
+    },
+    {
+      "id": "DN05",
+      "so": 5,
+      "ten": "Hoàn thiện bản kế hoạch các chương trình lặp lại hằng năm; phối hợp vào tập huấn Junior",
+      "nhom": "Chương trình",
+      "mucTieu": "Mỗi chương trình lặp lại hằng năm có một bản kế hoạch chuẩn (mục tiêu, ban tổ chức, kịch bản, kinh phí, checklist, mẫu truyền thông) để khóa sau dùng lại; Junior học cách tổ chức chương trình qua chính các bản này.",
+      "dieuKien": "Không có.",
+      "phuThuoc": [],
+      "lienQuan": [
+        "DN01"
+      ],
+      "bang": [
+        "chuongTrinh"
+      ],
+      "boiCanh": "Đã có bộ kế hoạch năm trước trong thư mục KẾ_HOẠCH_CLB/2025-2026: Khâu cơ bản (kế hoạch, khung chương trình, kế hoạch ban chuyên môn, biên bản họp ban tổ chức), X-quang bụng, CT-scan bụng (gồm kế hoạch bán vé, quy định hoàn trả vé), Tuyển quân Gen12. Đây là điểm xuất phát cho các bản chuẩn. Workshop Lập và quản lý kế hoạch chương trình (đang soạn, dự thảo) dùng chính các bộ này làm tài liệu thực hành; có thể dùng workshop làm phần tập huấn Junior. Kế hoạch nội bộ (khung 1.0) có đầu việc 7 Manual CLB (Phần 4, Phần 5) và đầu việc 10 tập huấn Junior. Junior Gen12 có buổi sinh hoạt đầu tiên ngày 22/11/2026 theo kế hoạch Tuyển quân.",
+      "sanPham": [
+        "Mẫu kế hoạch chương trình dùng chung",
+        "Bản kế hoạch chuẩn cho từng chương trình lặp lại (cột Bản kế hoạch chuẩn trong bảng chương trình)",
+        "Buổi tập huấn Junior về tổ chức một chương trình",
+        "Junior làm trợ lý ban tổ chức ở ít nhất một chương trình"
+      ],
+      "canChot": [
+        "Những chương trình nào được coi là lặp lại hằng năm?",
+        "Mẫu kế hoạch gồm những mục nào?",
+        "Ai viết bản chuẩn cho từng chương trình (trưởng ban mùa gần nhất)?",
+        "Junior tham gia thế nào: học qua workshop Lập kế hoạch, làm trợ lý ban tổ chức, hay cả hai?",
+        "Bản chuẩn phải xong trước mỗi chương trình bao lâu?"
+      ],
+      "theoNha": [],
+      "viec": [
+        {
+          "id": "DN05-01",
+          "ten": "Soạn mẫu kế hoạch chương trình dùng chung, thống nhất với Manual CLB",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN05-02",
+          "ten": "Thu các bản kế hoạch, kịch bản, dự toán, báo cáo cũ của từng chương trình",
+          "goiY": "2026-11-01"
+        },
+        {
+          "id": "DN05-03",
+          "ten": "Giao người viết bản chuẩn cho từng chương trình lặp lại",
+          "goiY": "2026-11-01"
+        },
+        {
+          "id": "DN05-04",
+          "ten": "Hoàn thiện bản chuẩn cho chương trình gần nhất trong timeline",
+          "goiY": "2026-11-22"
+        },
+        {
+          "id": "DN05-05",
+          "ten": "Hoàn thiện bản chuẩn các chương trình còn lại theo thứ tự timeline",
+          "goiY": "",
+          "luuY": "Đề xuất: xong trước mỗi chương trình ít nhất 6 tuần"
+        },
+        {
+          "id": "DN05-06",
+          "ten": "Soạn buổi tập huấn Junior “Tổ chức một chương trình”; phối hợp người phụ trách tập huấn Junior",
+          "goiY": "2026-11-29"
+        },
+        {
+          "id": "DN05-07",
+          "ten": "Xếp Junior làm trợ lý ban tổ chức ở các chương trình",
+          "goiY": "",
+          "luuY": "Sau khi có kết quả tuyển quân"
+        },
+        {
+          "id": "DN05-08",
+          "ten": "Cập nhật bản chuẩn sau mỗi chương trình theo rút kinh nghiệm",
+          "goiY": "",
+          "luuY": "Việc lặp lại sau mỗi chương trình"
+        }
+      ]
+    },
+    {
+      "id": "DN06",
+      "so": 6,
+      "ten": "Phân công phụ trách hồ sơ năng lực của CLB",
+      "nhom": "Hồ sơ và quy chế",
+      "mucTieu": "Sáu nhóm thông tin của Hồ sơ năng lực CLB (G01–G06) có người phụ trách, có ngày khởi động T0 và xong vòng thu thập đầu tiên trong 4 tuần; chủ nhiệm QA cuối.",
+      "dieuKien": "Không có.",
+      "phuThuoc": [],
+      "boiCanh": "Hệ thống thu thập đã dựng: 3 kho Drive, 2 Form (A nộp minh chứng; B ghi nhận sinh hoạt, chương trình, cột mốc), Master, Sheet tiến độ, hướng dẫn. Bản chụp 30/09/2026: chưa có bản ghi nộp minh chứng hoặc hoạt động; G01–G06 chưa có người phụ trách. Kế hoạch đã được chấp thuận: 6 người thu thập, không gồm chủ nhiệm; 4 tuần tính từ T0 (tuần 1 thiết lập và bản đồ nguồn; tuần 2 thu thập; tuần 3 bù khoảng trống; tuần 4 QA, khóa vòng 1). G01–G06 là nhóm công việc của hồ sơ, khác sáu nhà mascot.",
+      "sanPham": [
+        "6 người phụ trách G01–G06",
+        "Ngày T0 và lịch 4 tuần",
+        "Kiểm thử quyền bằng tài khoản thành viên; một bản ghi nộp thử",
+        "Vòng thu thập 1 hoàn tất và đã QA"
+      ],
+      "canChot": [
+        "Ai phụ trách từng nhóm G01–G06?",
+        "Ngày T0?",
+        "Ai được xem kho nguồn hạn chế?",
+        "Số liệu chương trình (đầu việc 2) nộp vào hồ sơ theo cách nào?"
+      ],
+      "theoNha": [],
+      "viec": [
+        {
+          "id": "DN06-01",
+          "ten": "Giao G01 Lịch sử, tổ chức",
+          "goiY": "2026-10-18"
+        },
+        {
+          "id": "DN06-02",
+          "ten": "Giao G02 Nhân lực, alumni",
+          "goiY": "2026-10-18"
+        },
+        {
+          "id": "DN06-03",
+          "ten": "Giao G03 Sinh hoạt hằng tuần",
+          "goiY": "2026-10-18"
+        },
+        {
+          "id": "DN06-04",
+          "ten": "Giao G04 Chương trình, kỹ năng",
+          "goiY": "2026-10-18"
+        },
+        {
+          "id": "DN06-05",
+          "ten": "Giao G05 Thành tích, NCKH, đối tác, cộng đồng",
+          "goiY": "2026-10-18"
+        },
+        {
+          "id": "DN06-06",
+          "ten": "Giao G06 Truyền thông, khán giả, nhận diện",
+          "goiY": "2026-10-18"
+        },
+        {
+          "id": "DN06-07",
+          "ten": "Chốt ngày T0 và lịch 4 tuần",
+          "goiY": "2026-10-18"
+        },
+        {
+          "id": "DN06-08",
+          "ten": "Cấp quyền, kiểm thử bằng tài khoản thành viên; nộp thử một bản ghi",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN06-09",
+          "ten": "Hoàn tất vòng thu thập 1; chủ nhiệm QA",
+          "goiY": "",
+          "luuY": "T0 cộng 4 tuần"
+        }
+      ]
+    },
+    {
+      "id": "DN07",
+      "so": 7,
+      "ten": "Chỉ tiêu follower của fanpage",
+      "nhom": "Fanpage",
+      "mucTieu": "Đặt chỉ tiêu tăng follower cho năm học, kèm vài chỉ số chất lượng (tiếp cận, tương tác, số bài), đo định kỳ từ Meta Business Suite theo cùng một cách đo.",
+      "dieuKien": "Cần số mốc chính xác trước khi đặt chỉ tiêu.",
+      "phuThuoc": [],
+      "boiCanh": "Follower hiển thị công khai 11K ngày 18/07/2026 (số làm tròn). Gói Insights đang lưu chỉ có chỉ số nội dung 18/04–17/07/2026; chưa có số follower chính xác theo ngày, chưa có bảng nhân khẩu học.",
+      "sanPham": [
+        "Số follower chính xác tại ngày bắt đầu",
+        "Chỉ tiêu cuối học kỳ 1 và cuối năm học",
+        "Bảng theo dõi tháng: follower, tiếp cận, tương tác, số bài"
+      ],
+      "canChot": [
+        "Số mốc lấy ngày nào, ai lấy?",
+        "Chỉ tiêu follower cuối học kỳ 1 và cuối năm học?",
+        "Ngoài follower, theo dõi thêm chỉ số nào?",
+        "Có chạy quảng cáo trả phí không? Nếu có: ngân sách, ai duyệt?"
+      ],
+      "theoNha": [],
+      "viec": [
+        {
+          "id": "DN07-01",
+          "ten": "Lấy số follower chính xác và chỉ số 3 tháng gần nhất từ Meta Business Suite",
+          "goiY": "2026-10-18"
+        },
+        {
+          "id": "DN07-02",
+          "ten": "Đề xuất chỉ tiêu kèm căn cứ: tốc độ tăng các năm trước, mùa tuyển quân, chương trình lớn",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN07-03",
+          "ten": "BCN chốt chỉ tiêu và chỉ số theo dõi",
+          "goiY": "2026-11-01"
+        },
+        {
+          "id": "DN07-04",
+          "ten": "Lập bảng theo dõi tháng",
+          "goiY": "2026-11-01"
+        },
+        {
+          "id": "DN07-05",
+          "ten": "Báo cáo chỉ số cuối mỗi tháng",
+          "goiY": "",
+          "luuY": "Việc lặp lại hằng tháng"
+        },
+        {
+          "id": "DN07-06",
+          "ten": "Đánh giá giữa năm; điều chỉnh chỉ tiêu nếu cần",
+          "goiY": "2027-01-31"
+        }
+      ]
+    },
+    {
+      "id": "DN08",
+      "so": 8,
+      "ten": "Mở rộng hợp tác với các CLB học thuật trong nước",
+      "nhom": "Hợp tác",
+      "mucTieu": "Có danh sách CLB học thuật mục tiêu, hình thức hợp tác cụ thể và hoạt động hợp tác được thực hiện trong năm học; chỉ tiêu số đối tác và số hoạt động do cuộc họp quyết.",
+      "dieuKien": "Không có. Thư ngỏ nên dùng thông tin từ Hồ sơ năng lực CLB khi có (đầu việc 6).",
+      "phuThuoc": [],
+      "lienQuan": [
+        "DN06",
+        "DN11"
+      ],
+      "bang": [
+        "doiTac"
+      ],
+      "boiCanh": "Dữ liệu Page có rất ít bài thuộc nhóm Đối tác – tổ chức (4/873 nội dung theo nhãn của bộ phân tích cũ). Chưa có danh mục đối tác đã kiểm chứng; bảng đối tác để trống.",
+      "sanPham": [
+        "Danh sách CLB mục tiêu và tiêu chí chọn",
+        "Thư ngỏ giới thiệu CLB và đề xuất hợp tác",
+        "Thỏa thuận hợp tác với các CLB ưu tiên",
+        "Hoạt động hợp tác đầu tiên và đánh giá sau hợp tác"
+      ],
+      "canChot": [
+        "Tiêu chí chọn CLB đối tác: lĩnh vực, trường, sự phù hợp với giá trị CLB?",
+        "Hình thức ưu tiên: đồng tổ chức, trao đổi tập huấn viên, hỗ trợ truyền thông, giao lưu học thuật?",
+        "Chỉ tiêu: bao nhiêu đối tác mới, bao nhiêu hoạt động chung trong năm?",
+        "Ai là đầu mối; ai được thay mặt CLB cam kết?",
+        "Có cần thỏa thuận bằng văn bản; Hội Sinh viên có phải duyệt không?"
+      ],
+      "theoNha": [],
+      "viec": [
+        {
+          "id": "DN08-01",
+          "ten": "Lập danh sách CLB học thuật mục tiêu trong và ngoài trường",
+          "goiY": "2026-11-01"
+        },
+        {
+          "id": "DN08-02",
+          "ten": "Chốt tiêu chí chọn và hình thức hợp tác",
+          "goiY": "2026-11-01"
+        },
+        {
+          "id": "DN08-03",
+          "ten": "Soạn thư ngỏ giới thiệu CLB và đề xuất hợp tác",
+          "goiY": "2026-11-15"
+        },
+        {
+          "id": "DN08-04",
+          "ten": "Liên hệ, gặp các CLB ưu tiên",
+          "goiY": "2026-12-13"
+        },
+        {
+          "id": "DN08-05",
+          "ten": "Chốt thỏa thuận hợp tác: nội dung, trách nhiệm, truyền thông chung",
+          "goiY": "2027-01-17"
+        },
+        {
+          "id": "DN08-06",
+          "ten": "Thực hiện hoạt động hợp tác đầu tiên",
+          "goiY": "",
+          "luuY": "Theo timeline chương trình"
+        },
+        {
+          "id": "DN08-07",
+          "ten": "Đánh giá sau hợp tác; cập nhật bảng đối tác",
+          "goiY": "",
+          "luuY": "Sau mỗi hoạt động hợp tác"
+        }
+      ]
+    },
+    {
+      "id": "DN09",
+      "so": 9,
+      "ten": "Phân công quản lý thiết kế bài đăng CLB (nhóm làm)",
+      "nhom": "Fanpage",
+      "mucTieu": "Việc thiết kế bài đăng được chia cho các nhà theo lịch, dùng mẫu và bộ nhận diện thống nhất, có người duyệt thiết kế trước khi đăng và kho lưu tệp nguồn.",
+      "dieuKien": "Không có. Gán thiết kế theo danh mục loại bài (đầu việc 3).",
+      "phuThuoc": [],
+      "lienQuan": [
+        "DN03",
+        "DN04",
+        "DN12"
+      ],
+      "boiCanh": "CLB đã có tài liệu bộ nhận diện (đang lưu, chưa có biên bản duyệt chính thức) và các bộ hình mascot; nhận diện từng nhà đang làm theo kế hoạch nội bộ, đầu việc 1. Trong các kế hoạch 2025–2026, mỗi chương trình có ban truyền thông riêng (Tuyển quân Gen12 dự kiến 10 người) lo thiết kế vé, poster, standee, thẻ đeo, giấy chứng nhận và bài đăng.",
+      "sanPham": [
+        "Cách chia việc thiết kế cho các nhà",
+        "Mỗi nhà có người thiết kế",
+        "Bộ mẫu thiết kế cho các loại bài thường xuyên",
+        "Kho lưu tệp nguồn thiết kế và quy ước đặt tên"
+      ],
+      "canChot": [
+        "Chia theo cách nào: mỗi nhà nhận một số loại bài, hay xoay vòng theo tháng?",
+        "Nhóm thiết kế theo nhà làm việc với ban truyền thông của từng chương trình thế nào: ai làm sản phẩm gì?",
+        "Ai duyệt thiết kế trước khi đăng?",
+        "Công cụ thiết kế dùng chung và tài khoản của CLB?",
+        "Kho lưu tệp nguồn ở đâu?",
+        "Thiết kế phải nộp trước ngày đăng bao lâu?"
+      ],
+      "theoNha": [
+        "Nhận loại bài phụ trách",
+        "Có người thiết kế",
+        "Nộp mẫu thiết kế",
+        "Đúng hạn tháng này"
+      ],
+      "viec": [
+        {
+          "id": "DN09-01",
+          "ten": "Chốt cách chia việc thiết kế cho các nhà",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN09-02",
+          "ten": "Mỗi nhà cử người thiết kế",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN09-03",
+          "ten": "Thiết lập công cụ thiết kế và tài khoản dùng chung của CLB",
+          "goiY": "2026-11-01"
+        },
+        {
+          "id": "DN09-04",
+          "ten": "Lập kho lưu tệp nguồn thiết kế; quy ước đặt tên",
+          "goiY": "2026-11-08"
+        },
+        {
+          "id": "DN09-05",
+          "ten": "Làm bộ mẫu thiết kế cho các loại bài thường xuyên theo bộ nhận diện",
+          "goiY": "2026-11-15"
+        },
+        {
+          "id": "DN09-06",
+          "ten": "Duyệt thiết kế theo lịch đăng",
+          "goiY": "",
+          "luuY": "Việc lặp lại theo lịch đăng"
+        },
+        {
+          "id": "DN09-07",
+          "ten": "Nhận xét chất lượng thiết kế mỗi tháng",
+          "goiY": "",
+          "luuY": "Việc lặp lại hằng tháng"
+        }
+      ]
+    },
+    {
+      "id": "DN10",
+      "so": 10,
+      "ten": "Khởi động lại việc tham gia Đường chạy truyền thống, hạng mục Kéo co",
+      "nhom": "Hợp tác",
+      "mucTieu": "CLB cử đội tham gia hạng mục Kéo co tại Đường chạy truyền thống mùa tới: đội đủ người, có lịch tập, có kế hoạch truyền thông gắn với tinh thần đồng đội của CLB.",
+      "dieuKien": "Không có. Phụ thuộc thể lệ và hạn đăng ký của ban tổ chức giải.",
+      "phuThuoc": [],
+      "boiCanh": "Hồ sơ đang lưu chưa có dữ liệu về các lần CLB tham gia trước và thời điểm tổ chức. Cần hỏi ban tổ chức thể lệ và mốc đăng ký.",
+      "sanPham": [
+        "Thể lệ, thời gian, hạn đăng ký của giải",
+        "Danh sách đội, đội trưởng, lịch tập",
+        "Đăng ký đúng hạn",
+        "Bài truyền thông trước và sau giải; ảnh và kết quả được lưu"
+      ],
+      "canChot": [
+        "Đơn vị tổ chức, thời gian, hạn đăng ký, thể lệ hạng mục Kéo co?",
+        "Đội gồm bao nhiêu người; chọn từ các nhà thế nào?",
+        "Ai là đội trưởng, ai lo hậu cần?",
+        "Kinh phí: áo, nước, di chuyển?"
+      ],
+      "theoNha": [
+        "Cử người vào đội"
+      ],
+      "viec": [
+        {
+          "id": "DN10-01",
+          "ten": "Liên hệ ban tổ chức: thể lệ, thời gian, hạn đăng ký",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN10-02",
+          "ten": "Chốt quy mô đội và cách chọn thành viên từ các nhà",
+          "goiY": "2026-11-01"
+        },
+        {
+          "id": "DN10-03",
+          "ten": "Đăng ký tham gia",
+          "goiY": "",
+          "luuY": "Theo hạn của ban tổ chức giải"
+        },
+        {
+          "id": "DN10-04",
+          "ten": "Lịch tập, đội trưởng, hậu cần",
+          "goiY": "",
+          "luuY": "Tính ngược từ ngày thi đấu"
+        },
+        {
+          "id": "DN10-05",
+          "ten": "Truyền thông trước và sau giải trên fanpage",
+          "goiY": ""
+        },
+        {
+          "id": "DN10-06",
+          "ten": "Tổng kết; lưu ảnh và kết quả",
+          "goiY": ""
+        }
+      ]
+    },
+    {
+      "id": "DN11",
+      "so": 11,
+      "ten": "Hoàn thiện quy chế đối ngoại (vé mời chương trình, hỗ trợ truyền thông)",
+      "nhom": "Hồ sơ và quy chế",
+      "mucTieu": "Có quy chế đối ngoại thành văn, đặc biệt về vé mời chương trình và việc hỗ trợ truyền thông cho đơn vị khác, để mọi người xử lý giống nhau và minh bạch.",
+      "dieuKien": "Không có.",
+      "phuThuoc": [],
+      "lienQuan": [
+        "DN08",
+        "DN03"
+      ],
+      "boiCanh": "Cách làm đã có trong kế hoạch 2025–2026: Khâu cơ bản 10 vé mời, gửi vé mời qua mail; X-quang bụng 10 vé mời, có bước duyệt vé mời; CT-scan bụng 5 vé mời (theo kế hoạch: cho CLB, 1 vé mời mỗi nhóm, 1 vé minigame). CT-scan bụng có quy định hỗ trợ hoàn trả vé (hoàn 100% nếu báo trước hạn, không chuyển nhượng vé); Khâu cơ bản quy định mỗi MSSV mua tối đa 1 vé, vé gắn với MSSV. Kế hoạch CT giao ban truyền thông phối hợp ban điều hành xin hỗ trợ truyền thông từ đơn vị khác; fanpage từng có chuỗi bài “Hỗ trợ truyền thông” (12/2025–01/2026) đăng cho đơn vị khác. Chưa tìm thấy văn bản quy chế đối ngoại chung. Khi ban hành, đưa vào Manual CLB (kế hoạch nội bộ, đầu việc 7).",
+      "sanPham": [
+        "Quy chế đối ngoại: bản dự thảo và bản được duyệt",
+        "Quy định vé mời: đối tượng, số lượng mỗi chương trình, người duyệt, sổ theo dõi",
+        "Quy định hỗ trợ truyền thông: điều kiện nhận, hình thức, số lượng, thời hạn",
+        "Mẫu thư mời, mẫu đề nghị hỗ trợ truyền thông"
+      ],
+      "canChot": [
+        "Vé mời: mời ai (cố vấn, giảng viên, đối tác, cựu thành viên, Hội Sinh viên), mỗi chương trình bao nhiêu vé, ai duyệt?",
+        "Hỗ trợ truyền thông: nhận cho đơn vị nào, điều kiện gì, có yêu cầu hỗ trợ lại không, mỗi tháng tối đa bao nhiêu bài?",
+        "Ai đại diện CLB phát ngôn, ký thư mời, trả lời tin nhắn fanpage?",
+        "Quy chế có cần Hội Sinh viên duyệt không?"
+      ],
+      "theoNha": [],
+      "viec": [
+        {
+          "id": "DN11-01",
+          "ten": "Gom cách làm đã có: vé mời, bán vé, hoàn trả vé (kế hoạch Khâu, X-quang, CT 2025–2026), các lần xin và nhận hỗ trợ truyền thông",
+          "goiY": "2026-10-25"
+        },
+        {
+          "id": "DN11-02",
+          "ten": "Soạn dự thảo quy chế: phạm vi, người đại diện, vé mời, hỗ trợ truyền thông, quan hệ đối tác",
+          "goiY": "2026-11-08"
+        },
+        {
+          "id": "DN11-03",
+          "ten": "Soạn mẫu thư mời, mẫu đề nghị hỗ trợ truyền thông, sổ theo dõi vé mời",
+          "goiY": "2026-11-08"
+        },
+        {
+          "id": "DN11-04",
+          "ten": "Lấy ý kiến BCN và các ban",
+          "goiY": "2026-11-15"
+        },
+        {
+          "id": "DN11-05",
+          "ten": "BCN duyệt; ban hành; đưa vào Manual CLB",
+          "goiY": "2026-11-22"
+        },
+        {
+          "id": "DN11-06",
+          "ten": "Áp dụng ở chương trình gần nhất; rà soát sau một học kỳ",
+          "goiY": "",
+          "luuY": "Theo timeline chương trình"
+        }
+      ]
+    },
+    {
+      "id": "DN12",
+      "so": 12,
+      "ten": "Tạo nhận diện cho các nhóm qua mascot và thẻ thành viên (phối hợp Ban nhân sự)",
+      "nhom": "Hợp tác",
+      "mucTieu": "Nhận diện sáu nhà (mascot, thẻ thành viên) được dùng thống nhất trên fanpage và tại các chương trình ngoài CLB; phần đối ngoại phối hợp với Ban nhân sự, không làm trùng việc.",
+      "dieuKien": "Giới thiệu ra ngoài sau khi BCN duyệt bộ nhận diện các nhà (kế hoạch nội bộ, đầu việc 1).",
+      "phuThuoc": [],
+      "lienQuan": [
+        "DN09",
+        "DN03"
+      ],
+      "boiCanh": "Kế hoạch nội bộ (khung 1.0) có đầu việc 1 Nhận diện Mascot nhóm (ba cấp Junior – Senior – Master, bộ nhận diện nhóm) và đầu việc 3 Side Quest 2 làm thẻ tên. App điểm danh có thẻ thành viên kèm mã QR, đang ở bản chạy thử. Kế hoạch Tuyển quân Gen12 có bài “Giới thiệu các nhóm sinh hoạt” trên fanpage ngày 21/10/2026, trước khi bộ nhận diện các nhà được duyệt; cần thống nhất bài này dùng hình nào. Phần việc ở đây là phía đối ngoại: giới thiệu và dùng nhận diện ra bên ngoài.",
+      "sanPham": [
+        "Phân chia chủ trì và phối hợp giữa Ban nhân sự và phía đối ngoại",
+        "Quy tắc dùng mascot và nhận diện nhà trên bài đăng",
+        "Chuỗi bài giới thiệu sáu nhà trên fanpage",
+        "Hướng dẫn thành viên đeo thẻ, dùng nhận diện nhà tại chương trình ngoài CLB"
+      ],
+      "canChot": [
+        "Ban nào chủ trì, ban nào phối hợp: thiết kế mascot, thẻ thành viên, giới thiệu trên fanpage?",
+        "Bài giới thiệu các nhóm của Tuyển quân ngày 21/10/2026 dùng hình và mô tả nào, khi bộ nhận diện ba cấp chưa duyệt?",
+        "Khi nào giới thiệu sáu nhà trên fanpage?",
+        "Thành viên đeo thẻ và dùng nhận diện nhà ở chương trình ngoài CLB thế nào?",
+        "Quy tắc dùng hình mascot trên bài đăng?"
+      ],
+      "theoNha": [
+        "Bộ nhận diện đã duyệt",
+        "Bài giới thiệu nhà",
+        "Thẻ thành viên"
+      ],
+      "viec": [
+        {
+          "id": "DN12-01",
+          "ten": "Họp chung với Ban nhân sự: chia phần chủ trì và phối hợp",
+          "goiY": "2026-10-18"
+        },
+        {
+          "id": "DN12-02",
+          "ten": "Thống nhất quy tắc dùng mascot và nhận diện nhà trên bài đăng",
+          "goiY": "2026-11-08"
+        },
+        {
+          "id": "DN12-03",
+          "ten": "Phối hợp thiết kế mặt thẻ thành viên theo nhận diện nhà",
+          "goiY": "2026-12-13"
+        },
+        {
+          "id": "DN12-04",
+          "ten": "Chuỗi bài giới thiệu sáu nhà trên fanpage, sau khi bộ nhận diện được duyệt",
+          "goiY": "2026-12-13"
+        },
+        {
+          "id": "DN12-05",
+          "ten": "Hướng dẫn thành viên đeo thẻ, dùng nhận diện nhà tại chương trình ngoài CLB",
+          "goiY": "2027-01-10"
+        }
+      ]
+    }
+  ]
+}
